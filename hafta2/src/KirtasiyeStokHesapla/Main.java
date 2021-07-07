@@ -1,6 +1,7 @@
 package KirtasiyeStokHesapla;
-
+// HAshMAp ile dinamik
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Scanner;
 
@@ -14,18 +15,37 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String mal;
-        int adet;
+        String product;
+
+        System.out.println("Çıkış için  q ya basın" );
+
+        List<String> products = new ArrayList<>();
         while (true){
+            System.out.print("Ürün : ");
+            product = scanner.next();
+           if(product.equals("q")){
+               break;
+           }
 
-            System.out.println("Çıkış için q ya basın...");
-            System.out.print("Alınan mal : ");
-            mal = scanner.nextLine();
-            System.out.println("KAç adet");
-            adet = scanner.nextInt();
-
+           products.add(product);
 
         }
+        System.out.println("Toplam ürüm miktarı : "+products.size());
 
+        int elmaSayac=0, armutSayac=0;
+        for (String urun : products) {
+            if(urun.equals("kalem")){
+                elmaSayac++;
+            }
+            if(urun.equals("silgi")){
+                armutSayac++;
+            }
+        }
+        System.out.println("Kalem sayısı : " + elmaSayac);
+        System.out.println("silgi sayısı : " + armutSayac);
+
+        HashSet<String> urunCesit = new HashSet<>();
+        urunCesit.addAll(products);
+        System.out.println("Ürün Çeşidi : " + urunCesit.size());
     }
 }

@@ -18,7 +18,7 @@
 
 
 ## Hafta 2 Ödevler
-[Vize Final Ortlama Hesapla](https://github.com/95-Ankara-Java-BootCamp/Ankara-Java-Bootcamp-Mazlum-Abul/tree/main/hafta2/src/DonemNotHesapla)
+[Vize Final Ortlama Hesapla](https://github.com/95-Ankara-Java-BootCamp/Ankara-Java-Bootcamp-Mazlum-Abul/tree/main/hafta2/src/VizeFinalOrtalamaHesapla)
 
 [Kırtasiye Stok Hesapla](https://github.com/95-Ankara-Java-BootCamp/Ankara-Java-Bootcamp-Mazlum-Abul/tree/main/hafta2/src/KirtasiyeStokHesapla)
 

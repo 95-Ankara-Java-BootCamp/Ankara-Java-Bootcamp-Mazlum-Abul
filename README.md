@@ -24,3 +24,6 @@
 
 [Sinema Bileti Ücreti Hesapla](https://github.com/95-Ankara-Java-BootCamp/Ankara-Java-Bootcamp-Mazlum-Abul/tree/main/hafta2/src/SinemaBiletSatis)
 
+
+## Hafta  Ödevler
+[Uçuş Yönetim Sistemi](https://github.com/95-Ankara-Java-BootCamp/Ankara-Java-Bootcamp-Mazlum-Abul/tree/main/hafta3)

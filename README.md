@@ -23,3 +23,4 @@
 [Kırtasiye Stok Hesapla](https://github.com/95-Ankara-Java-BootCamp/Ankara-Java-Bootcamp-Mazlum-Abul/tree/main/hafta2/src/KirtasiyeStokHesapla)
 
 [Sinema Bileti Ücreti Hesapla](https://github.com/95-Ankara-Java-BootCamp/Ankara-Java-Bootcamp-Mazlum-Abul/tree/main/hafta2/src/SinemaBiletSatis)
+

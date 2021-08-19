@@ -34,11 +34,8 @@ public class Start {
                     admin.adminGirisYap();
                     break;
                 case 2:
-                Admin.filmler();
                 Insan uye = new Uye();
-                double kredi = scanner.nextInt();
-
-                uye.filmSatinAl(kredi);
+                uye.filmSatinAl();
                 case 5:
                     durum = false;
                     break;

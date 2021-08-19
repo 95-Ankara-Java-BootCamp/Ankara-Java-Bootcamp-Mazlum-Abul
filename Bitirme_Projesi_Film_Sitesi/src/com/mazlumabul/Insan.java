@@ -21,8 +21,23 @@ public   class Insan {
         Admin.filmler();
     }
 
-    public void filmSatinAl(double kredi){
-        System.out.println("Film Satin Al");
+    public void filmSatinAl(){
+        boolean durum = true;
+        while (durum){
+            System.out.println("Film Satin Al Paneli");
+            Admin.filmler();
+
+            System.out.print("İzlemek istediğiniz filmin numarasını girin :  ");
+            int secim = scanner.nextInt();
+
+            if(film.getId() == secim ){
+                System.out.println(film.getFilmAd() + " aldınız. Tebrikler");
+                durum= false;
+            } else {
+                System.out.println("Böyle bir film yok. Tekrar deneyin. ");
+            }
+        }
+
     }
     public String getKullaniciAdi() {
         return kullaniciAdi;
